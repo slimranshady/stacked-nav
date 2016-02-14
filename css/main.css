@@ -1,13 +1,51 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
-  background-color: #fff
+  display: block;
+  box-sizing: border-box;
   font-family: "Dosis";
-  text-align:center;
+  text-align: center;
+  line-height: normal;
+  border-width: medium;
+  border-color: #795437;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #9a816d;
+  margin: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  color: #fffef8;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2em;
+  border-color: #795437;
+}
+
+h1 {
+  color: #591a0b;
+  font-weight: bold;
+}
+
+li {
+  border-width: 2em;
+  border-color: #795437;
+}
+
+li:hover {
+  background-color: #795437;
+  color: #fffef8;
+}
+
+body {
+  margin: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
