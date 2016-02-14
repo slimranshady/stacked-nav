@@ -37,6 +37,9 @@ h1 {
 li {
   border-width: 2em;
   border-color: #795437;
+  border: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 li:hover {
@@ -45,7 +48,5 @@ li:hover {
 }
 
 body {
-  margin: 2em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 0;
 }
